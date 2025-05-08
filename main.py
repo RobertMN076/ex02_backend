@@ -7,4 +7,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+usuarios = {
+    'robert': '9099',
+    'giulio': '8088',
+}
+
 
