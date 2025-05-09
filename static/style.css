@@ -41,16 +41,28 @@ body::before{
 }
 
 .form-control{
-    border-radius: 40px !important; 
+    border-radius: 40px !important;
+    border-color: black !important; 
 }
 
 .titulo{
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
-.btn{
+.btn-entrar{
     border-radius: 40px !important;
     border-color: transparent !important;
     background-color: #FFD700 !important;
 
+}
+
+.btn-facebook{
+    border-radius: 40px !important;
+    border-color: transparent !important;
+}
+
+.btn-google{
+    background-color: white !important;
+    border-radius: 40px !important;
+    border-color: black !important;
 }

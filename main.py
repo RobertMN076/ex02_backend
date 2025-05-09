@@ -1,3 +1,8 @@
+#py -3 -m venv .venv
+#.venv\Scripts\activate
+# pip install flask
+#python -m flask --app <arquivo> run --debug
+
 from flask import Flask
 from flask import redirect, request, url_for, render_template
 
